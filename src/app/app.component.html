@@ -1,0 +1,8 @@
+<div style="width: 100%; height: 600px; background-color: whitesmoke;">
+  <div *ngIf="_appService.isTelaLogin"> 
+    <app-login-tela></app-login-tela>
+  </div>
+  <div *ngIf="_appService.isTelaPrincipal"> 
+    <app-tela-principal></app-tela-principal>
+  </div>
+</div>
